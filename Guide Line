@@ -1,0 +1,7 @@
+Download the project files from the source repository.
+Open the command line interface (CLI) or terminal.
+Navigate to the project directory using the cd command.
+Run the following command to migrate the database and create the required tables: (php artisan migrate)
+Run the following command to start the PHP development server: ( php artisan serve )
+Additionally, if the project requires JavaScript compilation or bundling with Vite, run the following command in a separate terminal window or tab: ( npm run dev )
+Once the server and Vite are running, you can open a web browser and navigate to the provided server URL default is : ( http://127.0.0.1:8000/)
