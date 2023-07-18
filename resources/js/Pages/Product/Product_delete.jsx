@@ -33,7 +33,7 @@ export default function Product_delete(props) {
                     <Modal.Title>Delete Product</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <label htmlFor="">some</label><br />
+                    <label htmlFor="">Are you sure you want to delete this product ?</label><br />
                 </Modal.Body>
                 <Modal.Footer>
                     <form onSubmit={deleteProd} className="p-6">
